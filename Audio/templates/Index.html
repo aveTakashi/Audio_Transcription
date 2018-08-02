@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Transcription</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='mycss.css') }}">
+</head>
+<body id="container">
+    <form action="{{ url_for('transcribe_audio_file') }}" method="POST" enctype="multipart/form-data">
+        <h2 id="heading">Our Flask APP</h2>
+        <input type="file" name="file_path" class="btn">
+        <input type="submit" value="Transcibe" class="btn"><br>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                <p>{{ message }}</p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <textarea id="txtarea" name="txtarea">{{ data }}</textarea>
+    </form>
+</body>
