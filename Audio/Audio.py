@@ -11,8 +11,8 @@ app.config.update(
     SECRET_KEY = b'as&%jksd$?hsg',
     DATA = "",
     watson_api = SpeechToTextV1(
-        username="289a0d22-d36d-40ae-a398-6375e0275d85",
-        password="8JQdnFWtR6sv",
+        username="",
+        password="",
         url="https://stream.watsonplatform.net/speech-to-text/api"
     )
 )
