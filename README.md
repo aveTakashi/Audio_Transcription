@@ -37,7 +37,7 @@ flask run
 ```
 1. open your web browser
 2. enter "localhost:5000" in your address bar (without the qoutes)
-3. select a file and click Transcribe
+3. select a file and click Transcribe [ There are sample audio file in the project directory for testing purpose]
 NB1: audio file format can only be any of these (.wav, .flac, .mp3, .basic, .l16, .mpeg,
     .mulaw, .ogg, .webm)
 ```
