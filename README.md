@@ -5,7 +5,7 @@ This repository (Audio_Transcript) is a flask web app that transcribes audio rec
 ## Installation
 ```
 git clone https://github.com/ave12345/Audio_Transcription.git
-cd Audio_Transcript
+cd Audio_Transcription
 [optional] mkvirtualenv Audio_Transcription
 pip install -r requirements.txt
 ```
@@ -30,6 +30,7 @@ Do the same for the password.
 ## Starting Server
 ```
 [In your terminal execute:]
+set FLASK_APP=Audio.py
 flask run
 ```
 
