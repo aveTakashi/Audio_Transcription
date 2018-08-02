@@ -4,7 +4,7 @@ This repository (Audio_Transcript) is a flask web app that transcribes audio rec
 
 ## Installation
 ```
-git clone https:/github.com/ave12345/Audio_File_Transcription.git
+git clone https:/github.com/ave12345/Audio_Transcription.git
 cd Audio_Transcript
 pip install --editable "[FILE_PATH]"
 ```
