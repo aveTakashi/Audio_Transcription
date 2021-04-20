@@ -19,7 +19,7 @@ Jinja2==2.10
 MarkupSafe==1.0
 more-itertools==4.2.0
 pluggy==0.6.0
-py==1.5.4
+py==1.10.0
 pyasn1==0.4.3
 pyasn1-modules==0.2.2
 PyAudio==0.2.11
