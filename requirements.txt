@@ -33,7 +33,7 @@ service-identity==17.0.0
 six==1.11.0
 Twisted==18.7.0
 txaio==2.10.0
-urllib3==1.23
+urllib3==1.26.5
 watson-developer-cloud==1.5.0
 Wave==0.0.2
 Werkzeug==0.14.1
